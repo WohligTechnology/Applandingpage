@@ -5,7 +5,7 @@
 
 body {
     background: url("../img/mainbg.png");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -16,24 +16,29 @@ body {
     left: 16%;
     color: #B00D28;
 }
-.info h1{
-    color:white;
-    margin-top:12%;
+
+.info h1 {
+    color: white;
+    margin-top: 12%;
 }
-.info h3{
-    color:white;
+
+.info h3 {
+    color: white;
     margin-top: 10%;
 }
-.info p{
-    color:white;
+
+.info p {
+    color: white;
     font-size: 20px;
 }
-.logo{
+
+.logo {
     text-align: center;
 }
-.logo img{
-    width:20%;
-    margin:45px auto 0 auto;
+
+.logo img {
+    width: 20%;
+    margin: 45px auto 0 auto;
 }
 /*
 .container {
@@ -45,10 +50,24 @@ body {
 .auto-margin {
     margin: 0 auto;
 }
-.margin0{
-    margin:0!important;
+
+.footer p {
+    color: white;
+    font-size: 10px;
+    padding: 5px;
 }
-.mt0{
+
+.footer span {
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+
+.margin0 {
+    margin: 0!important;
+}
+
+.mt0 {
     margin-top: 0!important;
 }
 /*
