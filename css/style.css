@@ -50,7 +50,9 @@ body {
 .auto-margin {
     margin: 0 auto;
 }
-
+.footer{
+    margin-top:20px;
+}
 .footer p {
     color: white;
     font-size: 10px;
