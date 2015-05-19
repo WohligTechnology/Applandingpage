@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <title>Moviews Website</title>
+
+    <!--Favicon-->
+    <link rel="icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="logo">
+                    <img src="img/logo.png" class="auto-margin">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt0">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/iphone.png" class="img-responsive auto-margin" />
+                </a>
+                <img src="img/ios-app.png" class="img-responsive auto-margin">
+            </div>
+            <div class="col-md-6 info">
+                <h1>
+                    NO FRILLS,NO FLUFF,<br>
+                    JUST MOVIE RATINGS.
+                </h1>
+                <h3>
+                   KEY FEATURES OF MOVIEWS:
+               </h3>
+                <p>
+                    Aggregate ratings from Experts<br> and Popular Websites
+                </p>
+                <p>
+                    Twitter Trends for individual movies
+                </p>
+                <p>Rate movies in a single click</p>
+                <p> Write your own review</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="img/nexus.png" class="img-responsive auto-margin" />
+                </a>
+                <img src="img/gplay.png" class="img-responsive auto-margin">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var isMobile = {
+            Android: function () {
+                return /Android/i.test(navigator.userAgent);
+            },
+            BlackBerry: function () {
+                return /BlackBerry/i.test(navigator.userAgent);
+            },
+            iOS: function () {
+                return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+            },
+            Windows: function () {
+                return /IEMobile/i.test(navigator.userAgent);
+            },
+            any: function () {
+                return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
+            }
+        };
+
+        $(document).ready(function () {
+            if (isMobile.Android()) {
+                window.location.href = "https://play.google.com/store/apps/details?id=com.predicto";
+            }
+            if (isMobile.iOS()) {
+                window.location.href = "https://itunes.apple.com/app/id984961012";
+            }
+
+        });
+    </script>
+</body>
+
+</html>
