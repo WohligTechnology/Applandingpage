@@ -22,7 +22,7 @@ body {
 
 .info h2 {
     color: white;
-    margin-top: 12%;
+    margin-top: 60px;
     font-weight: 700;
     font-family: 'Raleway';
    
@@ -30,7 +30,7 @@ body {
 
 .info h4 {
     color: white;
-    margin-top: 10%;
+    margin-top: 40px;
     font-weight: 700;
     font-size: 20px;
     font-family: 'Raleway';
@@ -39,10 +39,10 @@ body {
 
 .info p {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     font-family: 'Raleway';
-    margin: 0;
+    margin: 10px 0 0 0;
     
 }
 
@@ -84,6 +84,10 @@ body {
 
 .margin0 {
     margin: 0!important;
+}
+
+.mt10{
+    margin-top:10px;
 }
 
 .mt0 {
